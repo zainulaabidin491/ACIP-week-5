@@ -1,0 +1,23 @@
+This is a Python program designed to manage the costs and attendance of a senior citizens' outing. Here's a breakdown of how it works:
+
+Task 1:
+Cost Calculations
+The program asks for the number of senior citizens attending the outing and validates the input to ensure it's within the allowed range (10-36).
+Based on the number of seniors, it determines the number of carers needed (minimum 2, with an extra carer if there are more than 24 seniors).
+The program then calculates the total cost of the outing by adding the hire cost (dependent on the number of seniors) to the meal and ticket costs (also dependent on the number of seniors).
+Finally, it calculates the cost per person by dividing the total cost by the number of seniors.
+
+Task 2:
+Record Attendance and Payments
+The program enters an infinite loop to record attendees' names, roles (senior or carer), and amounts paid (if applicable).
+For each attendee, it asks for their name, role, and amount paid (if they're a senior). Carers do not pay.
+The program keeps track of the total amount collected and stores each attendee's details in a list.
+The loop continues until the user decides to stop adding attendees.
+
+Task 3:
+Break-even or Profit Analysis
+The program compares the total amount collected to the total cost of the outing.
+If the total collected is greater than the total cost, it calculates the profit.
+If the total collected equals the total cost, it indicates a break-even point.
+If the total collected is less than the total cost, it calculates the loss.
+The program uses constants for minimum and maximum seniors, minimum carers, and extra carer thresholds to ensure consistency and make it easier to update these values if needed.
